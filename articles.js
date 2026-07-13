@@ -131,7 +131,7 @@ const articles = [
         resume: "Découvert dans un bâtiment abandonné de Rennes, un homme très affaibli a été hospitalisé après plusieurs jours passés en captivité dans des circonstances encore inexpliquées.",
 
         contenu: `
-            <p>Les secours sont intervenus dans la nuit du 6 au 7 février après la découverte d'un homme en état de grande faiblesse pret de la plateforme logistique de Vern .</p>
+            <p>Les secours sont intervenus dans la nuit du 6 au 7 février après la découverte d'un homme en état de grande faiblesse près de la plateforme logistique de Vern .</p>
 
             <p>Selon plusieurs sources concordantes, la victime présentait un important état de dénutrition ainsi qu'une perte de sang particulièrement préoccupante. Hospitalisé au CHU, son pronostic vital n'est plus engagé.</p>
 
