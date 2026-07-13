@@ -306,7 +306,7 @@ const articles = [
         date: "16 décembre 2025",
         dateISO: "2025-12-16",
         auteur: "Clara Aubin",
-        image: "images/articles/an_ti_koz.jpg",
+        image: "images/articles/an_ti_koz.png",
         imageAlt: "Maison 'AN-TI-KOZ du centre de Rennes",
         imageLegende: "Photo de la celebre maison du 16ieme siecle de Rennes. Photo : Wikipédia.",
         resume: "Derrière sa façade bien connue, l'une des plus anciennes maisons de Rennes conserve plusieurs récits difficiles à vérifier.",
