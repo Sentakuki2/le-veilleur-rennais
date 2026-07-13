@@ -69,7 +69,7 @@ const articles = [
             texte: "Très belle initiative, je vais déposer quelques livres demain 😊"
         },
         {
-            pseudo: "Sophie",
+            pseudo: "Claire",
             date: "19 février 2026 à 18:51",
             texte: "Ça fait plaisir de lire une bonne nouvelle de temps en temps 🥰"
         },
@@ -100,7 +100,7 @@ const articles = [
         <p>[....]</p>`,
         commentaires: [
         {
-            pseudo: "Emma",
+            pseudo: "Paul02",
             date: "14 février 2026 à 11:28",
             texte: "Bon courage à tous les fleuristes aujourd'hui ! 🌹❤️"
         },
@@ -110,7 +110,7 @@ const articles = [
             texte: "J'espère qu'il restera encore quelques roses ce soir 😅"
         },
         {
-            pseudo: "Julie",
+            pseudo: "Claire",
             date: "14 février 2026 à 19:02",
             texte: "Bonne Saint-Valentin à tous ❤️🥰"
         },
@@ -119,6 +119,58 @@ const articles = [
             date: "14 février 2026 à 21:57",
             texte: "N'oubliez jamais de dire aux gens que vous les aimez. On pense toujours avoir le temps. ❤️"
         }
+        ]
+    },
+    {
+        id: "homme-retrouve-captif",
+        titre: "Un homme retrouvé en état critique après plusieurs jours de captivité",
+        date: "10 février 2026",
+        dateISO: "2026-02-10",
+        auteur: "Clara Aubin",
+
+        resume: "Découvert dans un bâtiment abandonné de Rennes, un homme très affaibli a été hospitalisé après plusieurs jours passés en captivité dans des circonstances encore inexpliquées.",
+
+        contenu: `
+            <p>Les secours sont intervenus dans la nuit du 6 au 7 février après la découverte d'un homme en état de grande faiblesse pret de la plateforme logistique de Vern .</p>
+
+            <p>Selon plusieurs sources concordantes, la victime présentait un important état de dénutrition ainsi qu'une perte de sang particulièrement préoccupante. Hospitalisé au CHU, son pronostic vital n'est plus engagé.</p>
+
+            <p>Les enquêteurs privilégient pour l'instant la piste d'une séquestration. Aucun élément ne laisse penser qu'une demande de rançon ait été formulée, ce qui rend l'affaire particulièrement inhabituelle.</p>
+
+            <p>D'après une source proche du dossier, l'homme aurait évoqué plusieurs personnes présentes durant sa captivité. Son témoignage reste toutefois très confus. Les médecins estiment que son état physique et psychologique ne lui permet pas encore de livrer un récit fiable des événements.</p>
+
+            <p>La police poursuit ses investigations afin de déterminer les circonstances exactes de cette affaire.</p>
+
+            <p>[....]</p>
+        `,
+
+        commentaires: [
+            {
+                pseudo: "Nicolas35",
+                date: "10 février 2026 à 09:22",
+                texte: "Comment peut-on retenir quelqu'un plusieurs jours sans que personne ne remarque rien ? 😮"
+            },
+            {
+                pseudo: "Claire",
+                date: "10 février 2026 à 14:47",
+                texte: "Le pauvre... J'espère qu'ils retrouveront ceux qui lui ont fait ça. ✊⚖️"
+            },
+            
+            {
+                pseudo: "RennesCentre",
+                date: "10 février 2026 à 19:24",
+                texte: "😱😱😱 ! Ça fait froid dans le dos... Heureusement qu'il a été retrouvé à temps."
+            },
+            {
+                pseudo: "Mélanie",
+                date: "11 février 2026 à 00:31",
+                texte: "J'espère surtout qu'il pourra retrouver une vie normale après ce qu'il a vécu."
+            },
+            {
+                pseudo: "Paul02",
+                date: "11 février 2026 à 08:07",
+                texte: "On ne se rend pas compte de ce qui peut arriver juste à côté de chez nous...😔"
+            }
         ]
     },
     {
@@ -152,7 +204,7 @@ const articles = [
             texte: "Il y a des gens qui semblent toujours seuls. On se rend compte qu'ils existaient seulement une fois qu'ils ont disparu. 😔"
         },
         {
-            pseudo: "EtudianteRennes2",
+            pseudo: "Etudiante2Rennes2",
             date: "9 février 2026 à 12:18",
             texte: "J'espère qu'il sera retrouvé rapidement. Cette histoire fait froid dans le dos."
         },
@@ -173,7 +225,7 @@ const articles = [
             <p>[....]</p>`,
         commentaires: [
             { pseudo: "L2Info", date: "1 février 2026 à 14:17", texte: "Ça arrive surtout près des vieux bâtiments, pas dans les résidences récentes." },
-            { pseudo: "AncienDeRennes1", date: "2 février 2026 à 09:51", texte: "Il y avait déjà des histoires de sous-sols condamnés quand j'étais étudiant.🙄" }
+            { pseudo: "Ancien2Rennes2", date: "2 février 2026 à 09:51", texte: "Il y avait déjà des histoires de sous-sols condamnés quand j'étais étudiant.🙄" }
         ]
     },
     {
@@ -201,7 +253,7 @@ const articles = [
             texte: "Je promène mon chien presque tous les soirs. J'en ai déjà vu deux fois, ça dure quelques secondes."
         },
         {
-            pseudo: "Claire",
+            pseudo: "Paul02",
             date: "18 janvier 2026 à 10:14",
             texte: "Franchement je pense que ce sont juste des jeunes avec des lampes."
         },
@@ -290,12 +342,12 @@ const articles = [
             texte: "C'est sûrement son fils, les gens adorent inventer des histoires."
         },
         {
-            pseudo: "Pauline",
+            pseudo: "RennesCentre",
             date: "28 novembre 2025 à 21:16",
             texte: "J'ai vu les photos... ça ce voit que c'est de l'IA 😂🤣."
         },
         {
-            pseudo: "SceptiqueBreton",
+            pseudo: "BretonRimeAvecCon",
             date: "29 novembre 2025 à 08:41",
             texte: "Entre les vieux appareils photo et les souvenirs qui déforment tout..."
         }
