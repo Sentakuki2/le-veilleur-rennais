@@ -1,0 +1,570 @@
+/* =========================================================
+   LE VEILLEUR RENNAIS — identité visuelle
+   Remplace entièrement ton ancien style.css par ce fichier.
+   ========================================================= */
+
+* { box-sizing: border-box; }
+
+:root {
+    --nuit: #101a2b;
+    --nuit-claire: #1b2a42;
+    --rouge: #d84a3a;
+    --rouge-fonce: #a8322a;
+    --creme: #f4efe5;
+    --papier: #fffdf8;
+    --encre: #1d2430;
+    --gris: #687080;
+    --ligne: #d8d2c8;
+    --or: #d5a84f;
+    --ombre: 0 14px 35px rgba(16, 26, 43, 0.13);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    color: var(--encre);
+    background:
+        linear-gradient(rgba(16, 26, 43, 0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(16, 26, 43, 0.025) 1px, transparent 1px),
+        var(--creme);
+    background-size: 28px 28px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.65;
+}
+
+.container {
+    width: min(980px, calc(100% - 32px));
+    margin: 0 auto;
+}
+
+.site-header {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    background:
+        radial-gradient(circle at 85% 20%, rgba(216, 74, 58, 0.27), transparent 30%),
+        linear-gradient(135deg, #0d1727 0%, #172742 55%, #101a2b 100%);
+    border-bottom: 5px solid var(--rouge);
+    padding: 34px 0 0;
+}
+
+.site-header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.13;
+    pointer-events: none;
+    background-image:
+        linear-gradient(45deg, transparent 46%, white 47%, white 48%, transparent 49%),
+        linear-gradient(-45deg, transparent 46%, white 47%, white 48%, transparent 49%);
+    background-size: 42px 42px;
+}
+
+.site-header::after {
+    content: "RENNES · DEPUIS 2025";
+    position: absolute;
+    top: 22px;
+    right: max(16px, calc((100% - 980px) / 2));
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.site-header .container { position: relative; z-index: 1; }
+
+.site-title {
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.5rem, 7vw, 4.6rem);
+    font-weight: 900;
+    line-height: 0.95;
+    letter-spacing: -0.045em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0 3px 0 rgba(0, 0, 0, 0.17);
+}
+
+.site-title::before {
+    content: "●";
+    display: inline-block;
+    margin-right: 14px;
+    color: var(--rouge);
+    font-size: 0.45em;
+    vertical-align: middle;
+    text-shadow: 18px 0 0 var(--or);
+}
+
+.site-title::after {
+    content: "";
+    display: block;
+    width: 110px;
+    height: 5px;
+    margin-top: 14px;
+    background: linear-gradient(90deg, var(--rouge) 0 72%, var(--or) 72%);
+}
+
+.site-subtitle {
+    max-width: 620px;
+    margin: 14px 0 28px;
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.05rem;
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    gap: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+nav a {
+    display: inline-block;
+    position: relative;
+    padding: 15px 20px 14px;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    bottom: 7px;
+    left: 20px;
+    height: 3px;
+    background: var(--rouge);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+}
+
+nav a:hover,
+nav a.active {
+    color: white;
+    background: rgba(255, 255, 255, 0.055);
+}
+
+nav a:hover::after,
+nav a.active::after { transform: scaleX(1); }
+
+main { min-height: 65vh; padding: 48px 0 68px; }
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 22px;
+}
+
+.intro::before {
+    content: "";
+    width: 10px;
+    height: 42px;
+    flex: 0 0 10px;
+    background: linear-gradient(var(--rouge) 0 70%, var(--or) 70%);
+    border-radius: 2px;
+}
+
+.intro h1 {
+    margin: 0;
+    color: var(--nuit);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2rem, 4vw, 2.9rem);
+    letter-spacing: -0.025em;
+}
+
+.articles-list { display: grid; gap: 18px; }
+
+.article-card {
+    position: relative;
+    overflow: hidden;
+    padding: 28px 30px 27px;
+    background: var(--papier);
+    border: 1px solid rgba(16, 26, 43, 0.11);
+    border-left: 7px solid var(--nuit);
+    border-radius: 4px;
+    box-shadow: 0 7px 18px rgba(16, 26, 43, 0.07);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-left-color 0.2s ease;
+}
+
+.article-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 54px;
+    height: 54px;
+    background: linear-gradient(135deg, transparent 50%, rgba(216, 74, 58, 0.12) 50%);
+}
+
+.article-card:hover {
+    transform: translateY(-3px);
+    border-left-color: var(--rouge);
+    box-shadow: var(--ombre);
+}
+
+.article-card h2 {
+    max-width: 780px;
+    margin: 8px 0 12px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    line-height: 1.18;
+}
+
+.article-card h2 a { color: var(--nuit); text-decoration: none; }
+.article-card h2 a:hover { color: var(--rouge-fonce); }
+
+.article-card > p:not(.article-meta) {
+    max-width: 790px;
+    margin: 0 0 18px;
+    color: #414957;
+}
+
+.article-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    color: var(--rouge-fonce);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.article-meta::before { content: "●"; color: var(--or); font-size: 0.7rem; }
+
+.read-more,
+.back-link a,
+.about-page a {
+    color: var(--rouge-fonce);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.read-more {
+    display: inline-block;
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgba(216, 74, 58, 0.35);
+}
+
+.read-more:hover,
+.back-link a:hover,
+.about-page a:hover {
+    color: var(--rouge);
+    border-color: var(--rouge);
+}
+
+.article-page,
+.comments-section,
+.about-page {
+    background: var(--papier);
+    border: 1px solid rgba(16, 26, 43, 0.12);
+    border-radius: 4px;
+    box-shadow: var(--ombre);
+}
+
+.article-page,
+.about-page {
+    position: relative;
+    overflow: hidden;
+    padding: clamp(28px, 6vw, 58px);
+    border-top: 8px solid var(--nuit);
+}
+
+.article-page::before,
+.about-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    height: 8px;
+    background: var(--rouge);
+}
+
+.article-page h1,
+.about-page h1 {
+    max-width: 800px;
+    margin: 16px 0 12px;
+    color: var(--nuit);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2rem, 5vw, 3.4rem);
+    line-height: 1.08;
+    letter-spacing: -0.035em;
+}
+
+.article-body {
+    max-width: 760px;
+    margin-top: 36px;
+    color: #282f3a;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.12rem;
+    line-height: 1.78;
+}
+
+.article-body p { margin: 0 0 1.35em; }
+
+.article-body p:first-child::first-letter {
+    float: left;
+    margin: 8px 9px 0 0;
+    color: var(--rouge-fonce);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 4.2rem;
+    font-weight: 800;
+    line-height: 0.75;
+}
+
+.back-link { margin: 0 0 20px; font-size: 0.9rem; }
+
+.comments-section {
+    margin-top: 26px;
+    padding: clamp(25px, 5vw, 42px);
+    border-top: 5px solid var(--rouge);
+}
+
+.comments-section h2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 18px;
+    color: var(--nuit);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.75rem;
+}
+
+.comments-section h2::before { content: "✦"; color: var(--or); }
+
+.comment {
+    position: relative;
+    margin-top: 14px;
+    padding: 18px 20px 18px 24px;
+    background: #f7f4ed;
+    border: 1px solid #e1dbcf;
+    border-left: 4px solid var(--nuit-claire);
+    border-radius: 3px;
+}
+
+.comment:nth-child(even) { border-left-color: var(--rouge); }
+
+.comment-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.comment-header strong { color: var(--nuit); letter-spacing: 0.02em; }
+.comment-header span { color: var(--gris); font-size: 0.8rem; }
+.comment p { margin: 9px 0 0; color: #353c47; }
+
+.about-page h2 {
+    margin-top: 34px;
+    color: var(--rouge-fonce);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.6rem;
+}
+
+.about-page p { max-width: 730px; }
+
+.contact {
+    margin-top: 34px;
+    padding: 22px;
+    background: var(--nuit);
+    color: white;
+    border-left: 5px solid var(--rouge);
+}
+
+.contact a { color: #ffdca0; }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 30px;
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.pagination a,
+.pagination span {
+    padding: 9px 13px;
+    background: var(--papier);
+    border: 1px solid var(--ligne);
+    border-radius: 3px;
+}
+.about-section {
+    margin-top: 36px;
+}
+
+.about-section:first-of-type {
+    margin-top: 20px;
+}
+
+.about-introduction {
+    font-size: 1.18rem;
+    color: var(--nuit);
+}
+
+.contact-box {
+    margin-top: 46px;
+    padding: 28px 30px;
+    color: white;
+    background:
+        linear-gradient(
+            135deg,
+            var(--nuit) 0%,
+            var(--nuit-claire) 100%
+        );
+    border-left: 6px solid var(--rouge);
+    border-radius: 4px;
+}
+
+.contact-box h2 {
+    margin-top: 0;
+    color: white;
+}
+
+.contact-box p {
+    max-width: 700px;
+}
+
+.contact-email {
+    margin: 22px 0;
+}
+
+.contact-email a {
+    display: inline-block;
+    padding: 10px 15px;
+    color: var(--nuit);
+    background: var(--creme);
+    border-radius: 3px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.contact-email a:hover {
+    color: white;
+    background: var(--rouge);
+}
+
+.contact-note {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.88rem;
+    font-style: italic;
+}
+
+.pagination a { color: var(--rouge-fonce); text-decoration: none; }
+.pagination a:hover { color: white; background: var(--rouge); border-color: var(--rouge); }
+
+.journal-signature{
+    margin-top:50px;
+    text-align:center;
+}
+
+.journal-quote{
+    margin:0;
+    color:var(--nuit);
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:1.6rem;
+    font-style:italic;
+    line-height:1.5;
+}
+
+.journal-author{
+    margin-top:18px;
+    color:var(--gris);
+    letter-spacing:.15em;
+    text-transform:uppercase;
+    font-size:.85rem;
+}
+
+.about-clara{
+    display:flex;
+    align-items:flex-start;
+    gap:35px;
+    margin-top:20px;
+}
+
+.clara-photo{
+    width:260px;
+    flex-shrink:0;
+
+    border-radius:6px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.18);
+
+    border:5px solid white;
+}
+
+.clara-text{
+    flex:1;
+}
+
+footer {
+    position: relative;
+    overflow: hidden;
+    padding: 34px 0;
+    color: rgba(255, 255, 255, 0.7);
+    background: var(--nuit);
+    border-top: 5px solid var(--rouge);
+    font-size: 0.82rem;
+    letter-spacing: 0.05em;
+}
+
+footer::after {
+    content: "LES HISTOIRES DE RENNES, À HAUTEUR D'HABITANT";
+    position: absolute;
+    right: max(16px, calc((100% - 980px) / 2));
+    bottom: 29px;
+    color: rgba(255, 255, 255, 0.28);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+}
+
+@media (max-width: 720px) {
+    .site-header::after { display: none; }
+    .site-title { padding-right: 0; font-size: 2.5rem; }
+    .site-title::before { margin-right: 10px; }
+    nav { overflow-x: auto; }
+    nav a { flex: 0 0 auto; padding-right: 14px; padding-left: 14px; }
+    .article-card { padding: 23px 21px; }
+    .article-page, .about-page, .comments-section { padding: 25px 21px; }
+    .article-body { font-size: 1.04rem; }
+    footer::after { display: none; }
+}
+
+@media (max-width: 460px) {
+    .container { width: min(100% - 20px, 980px); }
+    .site-title { font-size: 2rem; }
+    .site-subtitle { font-size: 0.94rem; }
+    .comment-header { display: block; }
+    .comment-header span { display: block; margin-top: 3px; }
+}
+@media (max-width:800px){
+
+    .about-clara{
+        flex-direction:column;
+    }
+
+    .clara-photo{
+        width:100%;
+        max-width:320px;
+        margin:auto;
+    }
+
+}

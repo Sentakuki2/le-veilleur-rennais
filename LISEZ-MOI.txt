@@ -1,0 +1,5 @@
+Pour ouvrir le site : double-clique sur index.html.
+
+Pour ajouter un article : ouvre articles.js, copie un bloc existant et modifie ses informations.
+Chaque id doit être unique. La dateISO doit être au format AAAA-MM-JJ.
+L'accueil affiche automatiquement les 6 articles les plus récents par page.
