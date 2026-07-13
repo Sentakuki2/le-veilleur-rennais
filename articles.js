@@ -7,6 +7,9 @@ const articles = [
         date: " 21 février 2026",
         dateISO: "2026-02-21",
         auteur: "Clara Aubin",
+        image: "images/articles/fresque-rennes.png",
+        imageAlt: "photo de la fresque représentant un rennes ",
+        imageLegende: "Photo de l'etrange fresque apparu en une nuit. Photo : Ermine35.",
         resume: "Les passants ont découvert ce matin une immense fresque représentant un renne noir sur les quais de la Vilaine.",
         contenu: `
         <p>Les promeneurs ont découvert ce matin une imposante fresque peinte durant la nuit sur un mur désaffecté des quais de la Vilaine.</p>
@@ -40,6 +43,9 @@ const articles = [
         date: "19 février 2026",
         dateISO: "2026-02-19",
         auteur: "Clara Aubin",
+        image: "images/articles/livres-dons.png",
+        imageAlt: "distribution de livres a des enfants hospitalisé ",
+        imageLegende: "Photo de la distribution des livres récoltés au CHU de Rennes service pédiatrie. Photo : Clara Aubin.",
         resume: "Pendant tout le mois de février, une librairie du centre-ville collecte des ouvrages destinés aux jeunes patients du CHU de Rennes.",
         contenu: `
         <p>Depuis le début du mois, la librairie <em>Le Failler</em> organise une collecte de livres jeunesse au profit du service pédiatrique du CHU de Rennes.</p>
@@ -80,6 +86,9 @@ const articles = [
         date: "14 février 2026",
         dateISO: "2026-02-14",
         auteur: "Clara Aubin",
+        image: "images/articles/fleuriste.png",
+        imageAlt: "Vitrine d'un fleuriste rennais décorée pour la Saint-Valentin",
+        imageLegende: "Une vitrine du centre-ville à l'approche de la Saint-Valentin. Photo : Clara Aubin.",
         resume: "Comme chaque année, les fleuristes rennais voient défiler des centaines de clients venus chercher le bouquet parfait.",
         contenu: `
         <p>Dès les premières heures de la matinée, plusieurs fleuristes du centre-ville ont vu se former de longues files d'attente.</p>
@@ -112,7 +121,6 @@ const articles = [
         }
         ]
     },
-
     {
         id: "disparition-homme-centre",
         titre: "Une disparition jugée inquiétante dans le centre historique",
@@ -173,6 +181,9 @@ const articles = [
         titre: "Les riverains s'interrogent sur les lumières du parc des Gayeulles",
         date: "18 janvier 2026",
         dateISO: "2026-01-18",
+        image: "images/articles/parc_gayeulle.png",
+        imageAlt: "parc des gayeulle de Nuit",
+        imageLegende: "Photo du parc des Gayeulle prise de nuit a l'apparation d'une 'lumiere' . Photo : Lecteur Anonyme.",
         auteur: "Clara Aubin",
         resume: "Depuis plusieurs semaines, des habitants affirment apercevoir d'étranges lumières se déplacer entre les arbres après minuit.",
         contenu: `
@@ -208,6 +219,9 @@ const articles = [
         dateISO: "2025-12-25",
         auteur: "Clara Aubin",
         resume: "Associations et bénévoles se sont mobilisés toute la journée pour offrir un repas de fête aux personnes seules ou en difficulté.",
+        image: "images/articles/noel.png",
+        imageAlt: "distribution de repas bénévole dans Rennes",
+        imageLegende: "Photo de la distribution des repas dans le centre rennais. Photo : Clara Aubin.",
         contenu: `
         <p>Comme chaque année, plusieurs associations rennaises se sont mobilisées pour préparer et distribuer des repas de Noël aux personnes les plus isolées.</p>
 
@@ -234,12 +248,15 @@ const articles = [
         }
         ]
     },
-        {
+    {
         id: "an-ti-koz",
         titre: "L'An Ti Koz et ses histoires que personne ne raconte",
         date: "16 décembre 2025",
         dateISO: "2025-12-16",
         auteur: "Clara Aubin",
+        image: "images/articles/an_ti_koz.jpg",
+        imageAlt: "Maison 'AN-TI-KOZ du centre de Rennes",
+        imageLegende: "Photo de la celebre maison du 16ieme siecle de Rennes. Photo : Wikipédia.",
         resume: "Derrière sa façade bien connue, l'une des plus anciennes maisons de Rennes conserve plusieurs récits difficiles à vérifier.",
         contenu: `
         <p>L'An Ti Koz est connue des Rennais pour son architecture et son ancienneté. Pourtant, les histoires qui lui sont associées dépassent les quelques lignes habituellement consacrées au bâtiment.</p>
@@ -251,7 +268,6 @@ const articles = [
         { pseudo: "JeanneR", date: "17 décembre 2025 à 10:30", texte: "Les vieilles maisons ont toutes leurs légendes.👀" }
         ]
     },
-
     {
         id: "client-immuable",
         titre: "Les habitués d'un bar du centre évoquent un « client qui ne vieillit jamais »",

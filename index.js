@@ -9,10 +9,33 @@ const liste = document.getElementById("articles-list");
 articlesTries.slice(debut, debut + ARTICLES_PAR_PAGE).forEach(article => {
   const bloc = document.createElement("article");
   bloc.className = "article-card";
-  bloc.innerHTML = `<p class="article-meta">${article.date} — ${article.auteur}</p>
-    <h2><a href="article.html?id=${encodeURIComponent(article.id)}">${article.titre}</a></h2>
-    <p>${article.resume}</p>
-    <a class="read-more" href="article.html?id=${encodeURIComponent(article.id)}">Lire l'article →</a>`;
+  bloc.innerHTML = `
+      ${article.image ? `
+          <a href="article.html?id=${encodeURIComponent(article.id)}">
+              <img
+                  class="article-card-image"
+                  src="${article.image}"
+                  alt="${article.imageAlt || article.titre}"
+              >
+          </a>
+      ` : ""}
+
+      <div class="article-card-content">
+          <p class="article-meta">${article.date} — ${article.auteur}</p>
+
+          <h2>
+              <a href="article.html?id=${encodeURIComponent(article.id)}">
+                  ${article.titre}
+              </a>
+          </h2>
+
+          <p>${article.resume}</p>
+
+          <a class="read-more" href="article.html?id=${encodeURIComponent(article.id)}">
+              Lire l'article →
+          </a>
+      </div>
+  `;
   liste.appendChild(bloc);
 });
 const pagination = document.getElementById("pagination");
