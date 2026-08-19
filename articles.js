@@ -16,7 +16,7 @@ const articles = [
 
         <p>Selon les premiers éléments recueillis sur place, l'individu se serait attaqué successivement à plusieurs personnes avant de prendre la fuite. Les circonstances exactes de l'agression restent pour le moment difficiles à établir.</p>
 
-        <p>Les secours ont pris en charge plusieurs victimes. Deux d'entre elles ont été transportées au CHU de Rennes. Leur pronostic vital ne serait pas engagé.</p>
+        <p>Les secours ont pris en charge cinq victimes. L'une d'entre elles est décédée malgré l'intervention des secours. Une seconde, grièvement blessée, a été transportée au CHU de Rennes, tandis que trois autres personnes ont été prises en charge pour des blessures plus légères.</p>
 
         <p>Plusieurs témoins évoquent un homme désorienté et extrêmement violent. L'un d'eux affirme notamment que l'agresseur semblait « complètement hors de lui » et continuait à se battre malgré les tentatives de plusieurs personnes pour le maîtriser.</p>
 
