@@ -2,6 +2,51 @@ const articles = [
 
 
     {
+        id: "agression-violente-rennes",
+        titre: "Une violente agression fait plusieurs blessés dans le centre de Rennes",
+        date: "25 février 2026",
+        dateISO: "2026-02-28",
+        auteur: "Clara Aubin",
+        image: "images/articles/agression-rennes.png",
+        imageAlt: "intervention des secours et de la police dans une rue de Rennes",
+        imageLegende: "Les forces de l'ordre sont intervenues dans la nuit de mardi à mercredi. Photo : Ermine35.",
+        resume: "Plusieurs personnes ont été blessées dans la nuit après avoir été agressées par un homme au comportement particulièrement violent. Le suspect est toujours recherché.",
+        contenu: `
+        <p>Une violente agression s'est produite dans la nuit de mardi à mercredi dans le centre de Rennes. Plusieurs personnes ont été blessées par un homme dont le comportement a été décrit comme particulièrement agressif par plusieurs témoins.</p>
+
+        <p>Selon les premiers éléments recueillis sur place, l'individu se serait attaqué successivement à plusieurs personnes avant de prendre la fuite. Les circonstances exactes de l'agression restent pour le moment difficiles à établir.</p>
+
+        <p>Les secours ont pris en charge plusieurs victimes. Deux d'entre elles ont été transportées au CHU de Rennes. Leur pronostic vital ne serait pas engagé.</p>
+
+        <p>Plusieurs témoins évoquent un homme désorienté et extrêmement violent. L'un d'eux affirme notamment que l'agresseur semblait « complètement hors de lui » et continuait à se battre malgré les tentatives de plusieurs personnes pour le maîtriser.</p>
+
+        <p>La police a procédé dans la nuit à plusieurs constatations et cherche actuellement à identifier l'individu. Les enquêteurs devraient également exploiter les images des caméras présentes dans le secteur.</p>
+
+        <p>[....]</p>`,
+        commentaires: [
+        {
+            pseudo: "RennesCentre",
+            date: "25 février 2026 à 10:42",
+            texte: "J'étais pas loin hier soir, il y avait des policiers et des pompiers partout."
+        },
+        {
+            pseudo: "Thomas35",
+            date: "28 février 2026 à 14:17",
+            texte: "Encore un mec complètement défoncé sûrement..."
+        },
+        {
+            pseudo: "Lola_R",
+            date: "28 février 2026 à 15:03",
+            texte: "Une amie était là. Apparemment plusieurs personnes ont essayé de le retenir et personne n'y arrivait 😨"
+        },
+        {
+            pseudo: "Paul02",
+            date: "28 février 2026 à 22:26",
+            texte: "Comment il peut encore être recherché avec toutes les caméras qu'il y a dans le centre ?"
+        },
+        ]
+    },
+    {
         id: "fresque-vilaine",
         titre: "Une étrange fresque apparaît durant la nuit près de la Vilaine",
         date: " 21 février 2026",
