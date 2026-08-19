@@ -5,7 +5,7 @@ const articles = [
         id: "agression-violente-rennes",
         titre: "Une violente agression fait plusieurs blessés dans le centre de Rennes",
         date: "25 février 2026",
-        dateISO: "2026-02-28",
+        dateISO: "2026-02-25",
         auteur: "Clara Aubin",
         image: "images/articles/agression-rennes.png",
         imageAlt: "intervention des secours et de la police dans une rue de Rennes",
