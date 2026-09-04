@@ -1,5 +1,45 @@
 const articles = [
 
+    
+
+
+    {
+        id: "nuit-horreur-cinema-arvor",
+        titre: "Frissons jusqu'au bout de la nuit : l'Arvor organise une nuit du cinéma fantastique & d'horreur ",
+        date: "27 février 2026",
+        dateISO: "2026-02-27",
+        auteur: "Clara Aubin",
+        image: "images/articles/nuit-horreur-arvor.png",
+        imageAlt: "Affiche de l'evenement au cinéma Arvor",
+        imageLegende: "Le cinéma Arvor accueillera les amateurs de cinéma d'horreur fantastique jusqu'au petit matin. affiche de l'evenement.",
+        resume: "Avis aux amateurs de frissons : le cinéma Arvor organise ce vendredi soir une nuit spéciale consacrée au cinéma d'horreur fantastique, avec plusieurs films projetés jusqu'au petit matin.",
+        contenu: `
+        <p>Les amateurs de nuits blanches et de cinéma d'horreur ont rendez-vous ce vendredi à l'Arvor. Le cinéma rennais organise une soirée spéciale consacrée au genre, avec plusieurs projections qui se succéderont jusqu'aux premières heures du samedi matin.</p>
+
+        <p>La soirée débutera à 21 heures avec un classique du cinéma d'épouvante, avant de laisser progressivement la place à des œuvres plus récentes. L'objectif affiché par les organisateurs : proposer un voyage à travers plusieurs époques et plusieurs façons de faire peur.</p>
+
+        <p>Entre deux séances, les spectateurs pourront profiter d'une courte pause dans le hall du cinéma, où boissons chaudes et encas seront proposés. Un quiz consacré aux grands classiques du cinéma d'horreur est également prévu au cours de la nuit.</p>
+
+        <p>« L'idée n'est pas d'attendre Halloween pour ressortir les classiques du genre », sourit Mathieu Kerjean, adjoint de direction du cinéma. « On voulait retrouver l'ambiance des marathons de cinéma, avec des gens qui viennent autant pour les films que pour passer la nuit ensemble. »</p>
+
+        <p>La dernière projection devrait s'achever aux alentours de 6 heures du matin. Les plus courageux pourront donc ressortir de l'Arvor presque en même temps que le soleil.</p>
+
+        <p>Les organisateurs recommandent de réserver à l'avance, le nombre de places disponibles pour l'ensemble de la nuit étant limité, cependant vous pouvez venir sans reserver, si il reste de la place.</p>
+
+        <p>[....]</p>`,
+        commentaires: [
+            {
+                pseudo: "LucasG",
+                date: "27 février 2026 à 11:34",
+                texte: "Des films d'horreur jusqu'à 6h du matin ? Vous m'avez convaincu 😂"
+            },
+            {
+                pseudo: "Claire",
+                date: "27 février 2026 à 13:52",
+                texte: "Déjà fait une de leurs nuits l'année dernière, l'ambiance était vraiment cool !"
+            }
+        ]
+    },
 
     {
         id: "agression-violente-rennes",
@@ -30,18 +70,18 @@ const articles = [
             texte: "J'étais pas loin hier soir, il y avait des policiers et des pompiers partout."
         },
         {
-            pseudo: "Thomas35",
-            date: "28 février 2026 à 14:17",
-            texte: "Encore un mec complètement défoncé sûrement..."
-        },
-        {
             pseudo: "Lola_R",
-            date: "28 février 2026 à 15:03",
+            date: "25 février 2026 à 15:03",
             texte: "Une amie était là. Apparemment plusieurs personnes ont essayé de le retenir et personne n'y arrivait 😨"
         },
         {
+            pseudo: "Thomas35",
+            date: "26 février 2026 à 14:17",
+            texte: "Encore un mec complètement défoncé sûrement..."
+        },
+        {
             pseudo: "Paul02",
-            date: "28 février 2026 à 22:26",
+            date: "26 février 2026 à 22:26",
             texte: "Comment il peut encore être recherché avec toutes les caméras qu'il y a dans le centre ?"
         },
         ]
