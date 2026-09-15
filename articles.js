@@ -1,6 +1,62 @@
 const articles = [
 
+    {
+    id: "intrusion-pontchaillou-poches-sang",
+    titre: "Intrusion à Pontchaillou : des poches de sang volées en pleine nuit",
+    date: "28 février 2026",
+    dateISO: "2026-02-28",
+    auteur: "Clara Aubin",
+    image: "images/articles/intrusion-pontchaillou.png",
+    imageAlt: "L'hôpital Pontchaillou à Rennes durant la nuit",
+    imageLegende: "Une intervention de police a eu lieu dans la nuit de vendredi à samedi à l'hôpital Pontchaillou.",
+    resume: "Une intrusion pour le moins inhabituelle a déclenché l'alarme de l'hôpital Pontchaillou dans la nuit de vendredi à samedi. Plusieurs poches de sang auraient disparu et les auteurs étaient déjà partis à l'arrivée de la police.",
+    contenu: ` <p>Tout le monde parle ce matin du décès du conseiller municipal Julien Kerbrat. Pourtant, pendant que l'attention se concentrait sur cette affaire, un événement pour le moins inquiétant s'est produit cette nuit à l'hôpital Pontchaillou.</p>
+
+        <p>Dans la nuit du vendredi 27 au samedi 28 février, une alarme s'est déclenchée dans une partie de l'établissement hospitalier. Selon les premières informations que nous avons pu recueillir, une ou plusieurs personnes se seraient introduites dans une zone normalement inaccessible au public.</p>
+
+        <p>Plus étrange encore : plusieurs poches de sang auraient été dérobées. Le nombre exact n'est pour l'heure pas connu et l'établissement n'a pas encore communiqué officiellement sur l'étendue du vol.</p>
+
+        <p>La police s'est rendue sur place après le déclenchement de l'alarme, mais les responsables avaient déjà quitté les lieux à son arrivée. Aucun suspect n'aurait été interpellé cette nuit.</p>
+
+        <p>Un autre élément rend cependant l'affaire particulièrement troublante. Plusieurs témoignages recueillis dans la nuit font état d'un individu aperçu passant par une fenêtre située plusieurs étages au-dessus du sol. Certains parlent d'une chute, d'autres affirment l'avoir vu sauter volontairement. À cette heure, impossible de confirmer précisément ce qui s'est produit.</p>
+
+        <p>Ce qui l'est encore moins, c'est la suite. Malgré la hauteur évoquée par les témoins, aucune victime correspondant à cette chute n'aurait été retrouvée sur place lorsque les secours et les forces de l'ordre ont sécurisé les lieux.</p>
+
+        <p>Vol de poches de sang, intrusion nocturne et témoignages pour le moins difficiles à expliquer : beaucoup de questions restent donc sans réponse ce matin.</p>
+
+        <p>Il est à peine 6 heures lorsque nous publions ces lignes. Les informations disponibles restent fragmentaires et pourraient évoluer dans les prochaines heures. Nous mettrons cet article à jour dès que de nouveaux éléments auront pu être confirmés.</p>
+
+        <p>[....]</p>`,
+    commentaires: [
+        {
+            pseudo: "Ermine35",
+            date: "28 février 2026 à 06:14",
+            texte: "Attendez, quelqu'un vole des poches de sang et saute par une fenêtre ? C'est quoi cette histoire ?"
+        },
+        {
+            pseudo: "MarieR",
+            date: "28 février 2026 à 09:47",
+            texte: "J'étais à Pontchaillou cette nuit pour accompagner quelqu'un aux urgences. Je n'ai rien vu mais il y avait bien de la police et plusieurs agents de sécurité dans les couloirs."
+        },
+        {
+            pseudo: "Paul02",
+            date: "28 février 2026 à 14:38",
+            texte: "Je trouve surtout bizarre qu'on parle d'une chute de plusieurs étages mais d'aucun blessé. Soit le témoignage est faux, soit il manque une partie de l'histoire."
+        },
+        {
+            pseudo: "Nico35",
+            date: "28 février 2026 à 17:52",
+            texte: "Entre ça et tout ce qui s'est passé ces derniers jours à Rennes, l'ambiance commence à devenir vraiment étrange."
+        },
+       {
+            pseudo: "BreizhMysteres",
+            date: "28 février 2026 à 21:06",
+            texte: "Ce n'est pas parce que quelque chose tombe qu'il reste forcément au sol. Mais les escaliers sont quand même plus discrets."
+        }
+    ]
     
+
+    }
 
 
     {
@@ -37,6 +93,11 @@ const articles = [
                 pseudo: "Claire",
                 date: "27 février 2026 à 13:52",
                 texte: "Déjà fait une de leurs nuits l'année dernière, l'ambiance était vraiment cool !"
+            },
+            {
+                pseudo: "Maxime35",
+                date: "28 février 2026 à 10:17",
+                texte: "J'en sors encore fatigué 😂 Super ambiance toute la nuit, par contre la séance de 4h du matin a été difficile à tenir ! À refaire."
             }
         ]
     },
@@ -86,6 +147,54 @@ const articles = [
         },
         ]
     },
+    {
+        id: "velvet-june-saint-jacques-cafe",
+        titre: "Velvet June : la voix jazz-pop rennaise s'invite au Saint-Jacques Café",
+        date: "23 février 2026",
+        dateISO: "2026-02-23",
+        auteur: "Clara Aubin",
+        image: "images/articles/velvet-june.png",
+        imageAlt: "Élise Marceau, chanteuse du groupe Velvet June",
+        imageLegende: "Élise Marceau et son groupe Velvet June se produiront au Saint-Jacques Café samedi 28 février.",
+        resume: "Bien connue des amateurs de la scène musicale rennaise, Élise Marceau et son groupe Velvet June seront au Saint-Jacques Café samedi 28 février pour une soirée exceptionnelle aux sonorités jazz et pop.",
+        contenu: ` <p>Les habitués des petites scènes rennaises connaissent probablement déjà sa voix. Élise Marceau et son groupe Velvet June seront au Saint-Jacques Café ce samedi 28 février pour une soirée exceptionnelle placée sous le signe du jazz et de la pop.</p>
+
+            <p>Formé à Rennes il y a maintenant quelques années, le groupe s'est progressivement fait une place dans le paysage musical local. Porté par la voix d'Élise Marceau, Velvet June mélange influences jazz, pop contemporaine et quelques touches de soul, alternant compositions originales et reprises entièrement réarrangées.</p>
+
+            <p>Sans encore avoir franchi les frontières de la scène régionale, la chanteuse bénéficie aujourd'hui d'une petite popularité à Rennes, notamment grâce aux concerts donnés ces derniers mois dans plusieurs bars et salles de la métropole.</p>
+
+            <p>Pour cette date au Saint-Jacques Café, le groupe annonce une soirée un peu différente de ses concerts habituels. Une formation élargie accompagnera notamment la chanteuse pour plusieurs morceaux, avec saxophone et contrebasse, tandis que quelques titres encore jamais joués en public devraient être présentés.</p>
+
+            <p>« On voulait profiter de cette soirée pour proposer quelque chose de plus chaleureux et de plus proche du public », explique Élise Marceau. « Le Saint-Jacques se prête vraiment bien à ce genre de concert, où l'on peut prendre le temps de jouer et d'échanger avec les gens. »</p>
+
+            <p>Le concert débutera aux alentours de 22 h 30 samedi soir. Le Saint-Jacques Café conseille toutefois aux personnes souhaitant assister à la représentation d'arriver suffisamment tôt, la capacité d'accueil étant limitée.</p>
+
+            <p>[....]</p>`,
+        commentaires: [
+            {
+                pseudo: "LenaR",
+                date: "23 février 2026 à 15:42",
+                texte: "Je l'ai déjà vue chanter deux fois, elle a vraiment une voix incroyable. Ça donne envie d'y retourner !"
+            },
+            {
+                pseudo: "Nicolas35",
+                date: "24 février 2026 à 09:18",
+                texte: "Très bonne surprise la dernière fois que je les ai vus. Leurs reprises en version jazz sont vraiment sympas."
+            },
+            {
+                pseudo: "Camille35",
+                date: "25 février 2026 à 18:07",
+                texte: "Je ne connaissais pas du tout, je viens d'écouter quelques morceaux et franchement j'aime beaucoup !"
+            },
+            {
+                pseudo: "ThomasR",
+                date: "27 février 2026 à 12:31",
+                texte: "Présent samedi ! Ça fait un moment que je voulais les voir en concert 😁"
+            }
+        ]
+
+        }
+
     {
         id: "fresque-vilaine",
         titre: "Une étrange fresque apparaît durant la nuit près de la Vilaine",
