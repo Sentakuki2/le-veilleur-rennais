@@ -56,7 +56,7 @@ const articles = [
     ]
     
 
-    }
+    },
 
 
     {
@@ -193,7 +193,7 @@ const articles = [
             }
         ]
 
-        }
+    },
 
     {
         id: "fresque-vilaine",
