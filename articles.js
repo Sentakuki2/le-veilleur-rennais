@@ -1,54 +1,54 @@
 const articles = [
 
     {
-    id: "fermeture-petite-trouvaille",
-    titre: "La Petite Trouvaille ferme définitivement ses portes",
-    date: "1er mars 2026",
-    dateISO: "2026-03-01",
-    auteur: "Clara Aubin",
-    image: "images/articles/petite-trouvaille.png",
-    imageAlt: "Émilie Kerjean devant sa boutique La Petite Trouvaille à Rennes",
-    imageLegende: "Émilie Kerjean devant La Petite Trouvaille. À 33 ans, l'antiquaire était devenue un visage apprécié des habitués du quartier.",
-    resume: "Fermée depuis plusieurs semaines sans véritable explication, La Petite Trouvaille ne rouvrira finalement pas ses portes. Un simple écriteau annonçant sa fermeture définitive est apparu ce week-end sur la devanture de cette petite adresse appréciée des chineurs et des habitués.",
+        id: "fermeture-petite-trouvaille",
+        titre: "La Petite Trouvaille ferme définitivement ses portes",
+        date: "1er mars 2026",
+        dateISO: "2026-03-01",
+        auteur: "Clara Aubin",
+        image: "images/articles/petite-trouvaille.png",
+        imageAlt: "Émilie Kerjean devant sa boutique La Petite Trouvaille à Rennes",
+        imageLegende: "Émilie Kerjean devant La Petite Trouvaille. À 33 ans, l'antiquaire était devenue un visage apprécié des habitués du quartier.",
+        resume: "Fermée depuis plusieurs semaines sans véritable explication, La Petite Trouvaille ne rouvrira finalement pas ses portes. Un simple écriteau annonçant sa fermeture définitive est apparu ce week-end sur la devanture de cette petite adresse appréciée des chineurs et des habitués.",
 
-    contenu: `<p>Les habitués espéraient encore voir le rideau se relever. Il n'en sera finalement rien. Fermée depuis plusieurs semaines sans véritable explication, La Petite Trouvaille ne rouvrira pas ses portes. Un simple écriteau portant la mention « Fermeture définitive » est apparu ce week-end sur la devanture.</p>
+        contenu: `<p>Les habitués espéraient encore voir le rideau se relever. Il n'en sera finalement rien. Fermée depuis plusieurs semaines sans véritable explication, La Petite Trouvaille ne rouvrira pas ses portes. Un simple écriteau portant la mention « Fermeture définitive » est apparu ce week-end sur la devanture.</p>
 
-        <p>À mi-chemin entre la brocante, la boutique de décoration et le cabinet de curiosités, La Petite Trouvaille s'était fait une place à part parmi les petits commerces rennais. On pouvait y trouver aussi bien de vieilles affiches que des bijoux, des cartes postales, de la vaisselle, des photographies, quelques vinyles ou de petits meubles restaurés.</p>
+            <p>À mi-chemin entre la brocante, la boutique de décoration et le cabinet de curiosités, La Petite Trouvaille s'était fait une place à part parmi les petits commerces rennais. On pouvait y trouver aussi bien de vieilles affiches que des bijoux, des cartes postales, de la vaisselle, des photographies, quelques vinyles ou de petits meubles restaurés.</p>
 
-        <p>Mais beaucoup venaient surtout pour sa propriétaire. À seulement 33 ans, Émilie Kerjean était devenue au fil des années un visage familier du quartier, appréciée autant pour sa bonne humeur que pour sa connaissance des objets anciens.</p>
+            <p>Mais beaucoup venaient surtout pour sa propriétaire. À seulement 33 ans, Émilie Kerjean était devenue au fil des années un visage familier du quartier, appréciée autant pour sa bonne humeur que pour sa connaissance des objets anciens.</p>
 
-        <p>Il n'était d'ailleurs pas nécessaire de vouloir acheter ou vendre pour pousser sa porte. Des habitants venaient régulièrement lui apporter une montre, une photographie, un bijou ou un objet retrouvé au fond d'un grenier, simplement pour essayer d'en apprendre davantage sur son origine.</p>
+            <p>Il n'était d'ailleurs pas nécessaire de vouloir acheter ou vendre pour pousser sa porte. Des habitants venaient régulièrement lui apporter une montre, une photographie, un bijou ou un objet retrouvé au fond d'un grenier, simplement pour essayer d'en apprendre davantage sur son origine.</p>
 
-        <p>« Je lui avais apporté une vieille montre de mon grand-père en pensant avoir trouvé un trésor », se souvient en souriant une habituée. « Elle a passé vingt minutes à m'expliquer son histoire avant de m'annoncer qu'elle ne valait presque rien. Elle était beaucoup plus intéressée par l'objet que par son prix. »</p>
+            <p>« Je lui avais apporté une vieille montre de mon grand-père en pensant avoir trouvé un trésor », se souvient en souriant une habituée. « Elle a passé vingt minutes à m'expliquer son histoire avant de m'annoncer qu'elle ne valait presque rien. Elle était beaucoup plus intéressée par l'objet que par son prix. »</p>
 
-        <p>Émilie Kerjean proposait également de petites estimations et réalisait elle-même certaines restaurations. Lorsqu'un objet sortait de son domaine de compétence, elle avait plutôt l'habitude d'orienter son propriétaire vers un confrère ou un spécialiste.</p>
+            <p>Émilie Kerjean proposait également de petites estimations et réalisait elle-même certaines restaurations. Lorsqu'un objet sortait de son domaine de compétence, elle avait plutôt l'habitude d'orienter son propriétaire vers un confrère ou un spécialiste.</p>
 
-        <p>La fermeture avait déjà commencé à susciter quelques interrogations ces dernières semaines. La boutique était restée close du jour au lendemain, sans annonce particulière, et ses comptes en ligne, jusque-là régulièrement alimentés, étaient eux aussi restés silencieux.</p>
+            <p>La fermeture avait déjà commencé à susciter quelques interrogations ces dernières semaines. La boutique était restée close du jour au lendemain, sans annonce particulière, et ses comptes en ligne, jusque-là régulièrement alimentés, étaient eux aussi restés silencieux.</p>
 
-        <p>L'apparition de l'écriteau ce week-end semble désormais confirmer ce que beaucoup d'habitués redoutaient. Aucune explication n'accompagne cependant l'annonce et Émilie Kerjean n'a, pour l'instant, pas communiqué publiquement sur les raisons de cette fermeture.</p>
+            <p>L'apparition de l'écriteau ce week-end semble désormais confirmer ce que beaucoup d'habitués redoutaient. Aucune explication n'accompagne cependant l'annonce et Émilie Kerjean n'a, pour l'instant, pas communiqué publiquement sur les raisons de cette fermeture.</p>
 
-        <p>Une disparition discrète du paysage commercial rennais qui laissera malgré tout un vide à ceux qui avaient pris l'habitude de pousser la porte, parfois simplement pour regarder les nouveautés et discuter quelques minutes.</p>
+            <p>Une disparition discrète du paysage commercial rennais qui laissera malgré tout un vide à ceux qui avaient pris l'habitude de pousser la porte, parfois simplement pour regarder les nouveautés et discuter quelques minutes.</p>
 
-        <p>[....]</p>`,
+            <p>[....]</p>`,
 
-    commentaires: [
-        {
-            pseudo: "Mélanie",
-            date: "1er mars 2026 à 18:37",
-            texte: "Oh non... Émilie était vraiment adorable. Le quartier va être un peu plus sombre sans notre antiquaire préférée... J'espère surtout que tout va bien ❤️"
-        },
-        {
-            pseudo: "PierrotB",
-            date: "1er mars 2026 à 19:22",
-            texte: "Vraiment dommage. Elle m'avait retrouvé l'origine d'une vieille plaque récupérée chez mes parents alors que personne dans la famille ne savait d'où elle venait. Une vraie passionnée."
-        }
-        {
-            pseudo: "BreizhMysteres",
-            date: "1er mars 2026 à 20:16",
-            texte: "Les objets anciens ne sont jamais silencieux. Il faut simplement savoir les écouter. Elle savait. Elle va manquer à cette ville. 🌹"
-        }
-    ]
-},
+        commentaires: [
+            {
+                pseudo: "Mélanie",
+                date: "1er mars 2026 à 18:37",
+                texte: "Oh non... Émilie était vraiment adorable. Le quartier va être un peu plus sombre sans notre antiquaire préférée... J'espère surtout que tout va bien ❤️"
+            },
+            {
+                pseudo: "PierrotB",
+                date: "1er mars 2026 à 19:22",
+                texte: "Vraiment dommage. Elle m'avait retrouvé l'origine d'une vieille plaque récupérée chez mes parents alors que personne dans la famille ne savait d'où elle venait. Une vraie passionnée."
+            },
+            {
+                pseudo: "BreizhMysteres",
+                date: "1er mars 2026 à 20:16",
+                texte: "Les objets anciens ne sont jamais silencieux. Il faut simplement savoir les écouter. Elle savait. Elle va manquer à cette ville. 🌹"
+            }
+        ]
+    },
 
     {
     id: "fusillade-saint-jacques-cafe",
@@ -96,7 +96,7 @@ const articles = [
             pseudo: "BreizhMysteres",
             date: "1er mars 2026 à 20:27",
             texte: "Ils ont beaucoup tiré et presque rien touché. Pourtant, ils visaient juste."
-        }
+        },
         {
             pseudo: "Maxou35",
             date: "1er mars 2026 à 20:52",
@@ -155,7 +155,7 @@ const articles = [
                 date: "28 février 2026 à 17:52",
                 texte: "Entre ça et tout ce qui s'est passé ces derniers jours à Rennes, l'ambiance commence à devenir vraiment étrange."
             },
-        {
+            {
                 pseudo: "BreizhMysteres",
                 date: "28 février 2026 à 21:06",
                 texte: "Ce n'est pas parce que quelque chose tombe qu'il reste forcément au sol. Mais les escaliers sont quand même plus discrets."
