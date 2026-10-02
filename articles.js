@@ -1,60 +1,167 @@
 const articles = [
 
     {
-    id: "intrusion-pontchaillou-poches-sang",
-    titre: "Intrusion à Pontchaillou : des poches de sang volées en pleine nuit",
-    date: "28 février 2026",
-    dateISO: "2026-02-28",
+    id: "fermeture-petite-trouvaille",
+    titre: "La Petite Trouvaille ferme définitivement ses portes",
+    date: "1er mars 2026",
+    dateISO: "2026-03-01",
     auteur: "Clara Aubin",
-    image: "images/articles/intrusion-pontchaillou.png",
-    imageAlt: "L'hôpital Pontchaillou à Rennes durant la nuit",
-    imageLegende: "Une intervention de police a eu lieu dans la nuit de vendredi à samedi à l'hôpital Pontchaillou.",
-    resume: "Une intrusion pour le moins inhabituelle a déclenché l'alarme de l'hôpital Pontchaillou dans la nuit de vendredi à samedi. Plusieurs poches de sang auraient disparu et les auteurs étaient déjà partis à l'arrivée de la police.",
-    contenu: ` <p>Tout le monde parle ce matin du décès du conseiller municipal Julien Kerbrat. Pourtant, pendant que l'attention se concentrait sur cette affaire, un événement pour le moins inquiétant s'est produit cette nuit à l'hôpital Pontchaillou.</p>
+    image: "images/articles/petite-trouvaille.png",
+    imageAlt: "Émilie Kerjean devant sa boutique La Petite Trouvaille à Rennes",
+    imageLegende: "Émilie Kerjean devant La Petite Trouvaille. À 33 ans, l'antiquaire était devenue un visage apprécié des habitués du quartier.",
+    resume: "Fermée depuis plusieurs semaines sans véritable explication, La Petite Trouvaille ne rouvrira finalement pas ses portes. Un simple écriteau annonçant sa fermeture définitive est apparu ce week-end sur la devanture de cette petite adresse appréciée des chineurs et des habitués.",
 
-        <p>Dans la nuit du vendredi 27 au samedi 28 février, une alarme s'est déclenchée dans une partie de l'établissement hospitalier. Selon les premières informations que nous avons pu recueillir, une ou plusieurs personnes se seraient introduites dans une zone normalement inaccessible au public.</p>
+    contenu: `<p>Les habitués espéraient encore voir le rideau se relever. Il n'en sera finalement rien. Fermée depuis plusieurs semaines sans véritable explication, La Petite Trouvaille ne rouvrira pas ses portes. Un simple écriteau portant la mention « Fermeture définitive » est apparu ce week-end sur la devanture.</p>
 
-        <p>Plus étrange encore : plusieurs poches de sang auraient été dérobées. Le nombre exact n'est pour l'heure pas connu et l'établissement n'a pas encore communiqué officiellement sur l'étendue du vol.</p>
+        <p>À mi-chemin entre la brocante, la boutique de décoration et le cabinet de curiosités, La Petite Trouvaille s'était fait une place à part parmi les petits commerces rennais. On pouvait y trouver aussi bien de vieilles affiches que des bijoux, des cartes postales, de la vaisselle, des photographies, quelques vinyles ou de petits meubles restaurés.</p>
 
-        <p>La police s'est rendue sur place après le déclenchement de l'alarme, mais les responsables avaient déjà quitté les lieux à son arrivée. Aucun suspect n'aurait été interpellé cette nuit.</p>
+        <p>Mais beaucoup venaient surtout pour sa propriétaire. À seulement 33 ans, Émilie Kerjean était devenue au fil des années un visage familier du quartier, appréciée autant pour sa bonne humeur que pour sa connaissance des objets anciens.</p>
 
-        <p>Un autre élément rend cependant l'affaire particulièrement troublante. Plusieurs témoignages recueillis dans la nuit font état d'un individu aperçu passant par une fenêtre située plusieurs étages au-dessus du sol. Certains parlent d'une chute, d'autres affirment l'avoir vu sauter volontairement. À cette heure, impossible de confirmer précisément ce qui s'est produit.</p>
+        <p>Il n'était d'ailleurs pas nécessaire de vouloir acheter ou vendre pour pousser sa porte. Des habitants venaient régulièrement lui apporter une montre, une photographie, un bijou ou un objet retrouvé au fond d'un grenier, simplement pour essayer d'en apprendre davantage sur son origine.</p>
 
-        <p>Ce qui l'est encore moins, c'est la suite. Malgré la hauteur évoquée par les témoins, aucune victime correspondant à cette chute n'aurait été retrouvée sur place lorsque les secours et les forces de l'ordre ont sécurisé les lieux.</p>
+        <p>« Je lui avais apporté une vieille montre de mon grand-père en pensant avoir trouvé un trésor », se souvient en souriant une habituée. « Elle a passé vingt minutes à m'expliquer son histoire avant de m'annoncer qu'elle ne valait presque rien. Elle était beaucoup plus intéressée par l'objet que par son prix. »</p>
 
-        <p>Vol de poches de sang, intrusion nocturne et témoignages pour le moins difficiles à expliquer : beaucoup de questions restent donc sans réponse ce matin.</p>
+        <p>Émilie Kerjean proposait également de petites estimations et réalisait elle-même certaines restaurations. Lorsqu'un objet sortait de son domaine de compétence, elle avait plutôt l'habitude d'orienter son propriétaire vers un confrère ou un spécialiste.</p>
 
-        <p>Il est à peine 6 heures lorsque nous publions ces lignes. Les informations disponibles restent fragmentaires et pourraient évoluer dans les prochaines heures. Nous mettrons cet article à jour dès que de nouveaux éléments auront pu être confirmés.</p>
+        <p>La fermeture avait déjà commencé à susciter quelques interrogations ces dernières semaines. La boutique était restée close du jour au lendemain, sans annonce particulière, et ses comptes en ligne, jusque-là régulièrement alimentés, étaient eux aussi restés silencieux.</p>
+
+        <p>L'apparition de l'écriteau ce week-end semble désormais confirmer ce que beaucoup d'habitués redoutaient. Aucune explication n'accompagne cependant l'annonce et Émilie Kerjean n'a, pour l'instant, pas communiqué publiquement sur les raisons de cette fermeture.</p>
+
+        <p>Une disparition discrète du paysage commercial rennais qui laissera malgré tout un vide à ceux qui avaient pris l'habitude de pousser la porte, parfois simplement pour regarder les nouveautés et discuter quelques minutes.</p>
 
         <p>[....]</p>`,
+
     commentaires: [
         {
-            pseudo: "Ermine35",
-            date: "28 février 2026 à 06:14",
-            texte: "Attendez, quelqu'un vole des poches de sang et saute par une fenêtre ? C'est quoi cette histoire ?"
+            pseudo: "Mélanie",
+            date: "1er mars 2026 à 18:37",
+            texte: "Oh non... Émilie était vraiment adorable. Le quartier va être un peu plus sombre sans notre antiquaire préférée... J'espère surtout que tout va bien ❤️"
         },
         {
-            pseudo: "MarieR",
-            date: "28 février 2026 à 09:47",
-            texte: "J'étais à Pontchaillou cette nuit pour accompagner quelqu'un aux urgences. Je n'ai rien vu mais il y avait bien de la police et plusieurs agents de sécurité dans les couloirs."
+            pseudo: "PierrotB",
+            date: "1er mars 2026 à 19:22",
+            texte: "Vraiment dommage. Elle m'avait retrouvé l'origine d'une vieille plaque récupérée chez mes parents alors que personne dans la famille ne savait d'où elle venait. Une vraie passionnée."
+        }
+        {
+            pseudo: "BreizhMysteres",
+            date: "1er mars 2026 à 20:16",
+            texte: "Les objets anciens ne sont jamais silencieux. Il faut simplement savoir les écouter. Elle savait. Elle va manquer à cette ville. 🌹"
+        }
+    ]
+},
+
+    {
+    id: "fusillade-saint-jacques-cafe",
+    titre: "Fusillade au Saint-Jacques Café : un mort et plusieurs blessés en marge d'un concert",
+    date: "1er mars 2026",
+    dateISO: "2026-03-01",
+    auteur: "Clara Aubin",
+    image: "images/articles/fusillade-saint-jacques.png",
+    imageAlt: "Le Saint-Jacques Café après la fusillade survenue dans la nuit de samedi à dimanche",
+    imageLegende: "Le secteur du Saint-Jacques Café a été bouclé une partie de la nuit après plusieurs dizaines de coups de feu.",
+    resume: "Une violente fusillade a éclaté dans la nuit de samedi à dimanche au Saint-Jacques Café, où se produisait le groupe rennais Velvet June. Un homme a été tué et plusieurs personnes légèrement blessées. La piste d'un règlement de comptes est privilégiée.",
+
+    contenu: `<p>La soirée devait être consacrée à la musique. Elle s'est achevée au milieu des sirènes et des impacts de balles. Une violente fusillade a éclaté dans la nuit de samedi 28 février à dimanche 1er mars au Saint-Jacques Café, alors que l'établissement accueillait un concert du groupe rennais Velvet June.</p>
+
+        <p>Selon les premiers éléments recueillis sur place, plusieurs individus armés auraient fait irruption dans l'établissement avant d'ouvrir le feu. Les circonstances exactes de l'attaque restent encore difficiles à établir, mais les enquêteurs privilégieraient à ce stade la piste d'un règlement de comptes.</p>
+
+        <p>Un homme présenté comme appartenant au groupe des assaillants a été retrouvé mort sur les lieux. Plusieurs autres personnes ont été blessées au cours de la fusillade, mais leurs jours ne seraient pas en danger. La plupart souffriraient de blessures légères provoquées par des éclats, des chutes ou les mouvements de panique qui ont suivi les premiers tirs.</p>
+
+        <p>Un bilan qui apparaît presque miraculeux au regard de la violence de la scène. De nombreux impacts de balles étaient encore visibles dimanche matin à l'intérieur de l'établissement. Tables, murs et mobilier ont été touchés à plusieurs endroits, témoignant du nombre particulièrement important de tirs échangés.</p>
+
+        <p>« Ça a tiré dans tous les sens. Tout le monde s'est jeté par terre ou a essayé de trouver une sortie », raconte un témoin présent lors du concert. « Avec le bruit et les gens qui criaient, on ne comprenait même plus d'où venaient les coups de feu. »</p>
+
+        <p>D'après plusieurs témoignages, les tireurs ne semblaient cependant pas viser au hasard. Une personne présente dans l'établissement aurait été spécifiquement prise pour cible et serait parvenue à quitter les lieux pendant la confusion. Son identité comme son état de santé restent inconnus.</p>
+
+        <p>Lorsque les forces de l'ordre sont arrivées sur place, les principaux protagonistes avaient déjà disparu. Aucun suspect n'avait encore été interpellé dimanche matin.</p>
+
+        <p>Les enquêteurs cherchent désormais à reconstituer précisément le déroulement de la fusillade et à identifier les différents individus impliqués. Les témoignages des clients présents dans l'établissement ainsi que les éventuelles images de vidéosurveillance devraient notamment être examinés.</p>
+
+        <p>Le concert de Velvet June a naturellement été interrompu. Aucun membre du groupe ne figurerait parmi les blessés.</p>
+
+        <p>[....]</p>`,
+
+    commentaires: [
+        {
+            pseudo: "Claire",
+            date: "1er mars 2026 à 9:16",
+            texte: "J'espère que toute l'équipe du Saint-Jacques va bien... Courage à eux et à Velvet June ❤️"
         },
         {
             pseudo: "Paul02",
-            date: "28 février 2026 à 14:38",
-            texte: "Je trouve surtout bizarre qu'on parle d'une chute de plusieurs étages mais d'aucun blessé. Soit le témoignage est faux, soit il manque une partie de l'histoire."
+            date: "1er mars 2026 à 11:03",
+            texte: "Une guerre de gangs en plein concert maintenant ? Ça devient complètement dingue."
         },
         {
-            pseudo: "Nico35",
-            date: "28 février 2026 à 17:52",
-            texte: "Entre ça et tout ce qui s'est passé ces derniers jours à Rennes, l'ambiance commence à devenir vraiment étrange."
-        },
-       {
             pseudo: "BreizhMysteres",
-            date: "28 février 2026 à 21:06",
-            texte: "Ce n'est pas parce que quelque chose tombe qu'il reste forcément au sol. Mais les escaliers sont quand même plus discrets."
+            date: "1er mars 2026 à 20:27",
+            texte: "Ils ont beaucoup tiré et presque rien touché. Pourtant, ils visaient juste."
+        }
+        {
+            pseudo: "Maxou35",
+            date: "1er mars 2026 à 20:52",
+            texte: "Heureusement qu'il n'y a pas eu plus de victimes, vu le monde qu'il devait y avoir pour le concert ça aurait pu être bien pire..."
         }
     ]
-    
+
+    },
+
+
+    {
+        id: "intrusion-pontchaillou-poches-sang",
+        titre: "Intrusion à Pontchaillou : des poches de sang volées en pleine nuit",
+        date: "28 février 2026",
+        dateISO: "2026-02-28",
+        auteur: "Clara Aubin",
+        image: "images/articles/intrusion-pontchaillou.png",
+        imageAlt: "L'hôpital Pontchaillou à Rennes durant la nuit",
+        imageLegende: "Une intervention de police a eu lieu dans la nuit de vendredi à samedi à l'hôpital Pontchaillou.",
+        resume: "Une intrusion pour le moins inhabituelle a déclenché l'alarme de l'hôpital Pontchaillou dans la nuit de vendredi à samedi. Plusieurs poches de sang auraient disparu et les auteurs étaient déjà partis à l'arrivée de la police.",
+        contenu: ` <p>Tout le monde parle ce matin du décès du conseiller municipal Julien Kerbrat. Pourtant, pendant que l'attention se concentrait sur cette affaire, un événement pour le moins inquiétant s'est produit cette nuit à l'hôpital Pontchaillou.</p>
+
+            <p>Dans la nuit du vendredi 27 au samedi 28 février, une alarme s'est déclenchée dans une partie de l'établissement hospitalier. Selon les premières informations que nous avons pu recueillir, une ou plusieurs personnes se seraient introduites dans une zone normalement inaccessible au public.</p>
+
+            <p>Plus étrange encore : plusieurs poches de sang auraient été dérobées. Le nombre exact n'est pour l'heure pas connu et l'établissement n'a pas encore communiqué officiellement sur l'étendue du vol.</p>
+
+            <p>La police s'est rendue sur place après le déclenchement de l'alarme, mais les responsables avaient déjà quitté les lieux à son arrivée. Aucun suspect n'aurait été interpellé cette nuit.</p>
+
+            <p>Un autre élément rend cependant l'affaire particulièrement troublante. Plusieurs témoignages recueillis dans la nuit font état d'un individu aperçu passant par une fenêtre située plusieurs étages au-dessus du sol. Certains parlent d'une chute, d'autres affirment l'avoir vu sauter volontairement. À cette heure, impossible de confirmer précisément ce qui s'est produit.</p>
+
+            <p>Ce qui l'est encore moins, c'est la suite. Malgré la hauteur évoquée par les témoins, aucune victime correspondant à cette chute n'aurait été retrouvée sur place lorsque les secours et les forces de l'ordre ont sécurisé les lieux.</p>
+
+            <p>Vol de poches de sang, intrusion nocturne et témoignages pour le moins difficiles à expliquer : beaucoup de questions restent donc sans réponse ce matin.</p>
+
+            <p>Il est à peine 6 heures lorsque nous publions ces lignes. Les informations disponibles restent fragmentaires et pourraient évoluer dans les prochaines heures. Nous mettrons cet article à jour dès que de nouveaux éléments auront pu être confirmés.</p>
+
+            <p>[....]</p>`,
+        commentaires: [
+            {
+                pseudo: "Ermine35",
+                date: "28 février 2026 à 06:14",
+                texte: "Attendez, quelqu'un vole des poches de sang et saute par une fenêtre ? C'est quoi cette histoire ?"
+            },
+            {
+                pseudo: "MarieR",
+                date: "28 février 2026 à 09:47",
+                texte: "J'étais à Pontchaillou cette nuit pour accompagner quelqu'un aux urgences. Je n'ai rien vu mais il y avait bien de la police et plusieurs agents de sécurité dans les couloirs."
+            },
+            {
+                pseudo: "Paul02",
+                date: "28 février 2026 à 14:38",
+                texte: "Je trouve surtout bizarre qu'on parle d'une chute de plusieurs étages mais d'aucun blessé. Soit le témoignage est faux, soit il manque une partie de l'histoire."
+            },
+            {
+                pseudo: "Nico35",
+                date: "28 février 2026 à 17:52",
+                texte: "Entre ça et tout ce qui s'est passé ces derniers jours à Rennes, l'ambiance commence à devenir vraiment étrange."
+            },
+        {
+                pseudo: "BreizhMysteres",
+                date: "28 février 2026 à 21:06",
+                texte: "Ce n'est pas parce que quelque chose tombe qu'il reste forcément au sol. Mais les escaliers sont quand même plus discrets."
+            }
+        ]
+        
 
     },
 
