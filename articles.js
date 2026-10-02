@@ -8,7 +8,7 @@ const articles = [
         auteur: "Clara Aubin",
         image: "images/articles/petite-trouvaille.png",
         imageAlt: "Émilie Kerjean devant sa boutique La Petite Trouvaille à Rennes",
-        imageLegende: "Émilie Kerjean devant La Petite Trouvaille. À 33 ans, l'antiquaire était devenue un visage apprécié des habitués du quartier.",
+        imageLegende: "Émilie Kerjean devant La Petite Trouvaille. À 33 ans, l'antiquaire était devenue un visage apprécié des habitués du quartier. Photo : Instagram.",
         resume: "Fermée depuis plusieurs semaines sans véritable explication, La Petite Trouvaille ne rouvrira finalement pas ses portes. Un simple écriteau annonçant sa fermeture définitive est apparu ce week-end sur la devanture de cette petite adresse appréciée des chineurs et des habitués.",
 
         contenu: `<p>Les habitués espéraient encore voir le rideau se relever. Il n'en sera finalement rien. Fermée depuis plusieurs semaines sans véritable explication, La Petite Trouvaille ne rouvrira pas ses portes. Un simple écriteau portant la mention « Fermeture définitive » est apparu ce week-end sur la devanture.</p>
@@ -58,7 +58,7 @@ const articles = [
     auteur: "Clara Aubin",
     image: "images/articles/fusillade-saint-jacques.png",
     imageAlt: "Le Saint-Jacques Café après la fusillade survenue dans la nuit de samedi à dimanche",
-    imageLegende: "Le secteur du Saint-Jacques Café a été bouclé une partie de la nuit après plusieurs dizaines de coups de feu.",
+    imageLegende: "Le secteur du Saint-Jacques Café a été bouclé une partie de la nuit après plusieurs dizaines de coups de feu. Photo : Clara Aubin.",
     resume: "Une violente fusillade a éclaté dans la nuit de samedi à dimanche au Saint-Jacques Café, où se produisait le groupe rennais Velvet June. Un homme a été tué et plusieurs personnes légèrement blessées. La piste d'un règlement de comptes est privilégiée.",
 
     contenu: `<p>La soirée devait être consacrée à la musique. Elle s'est achevée au milieu des sirènes et des impacts de balles. Une violente fusillade a éclaté dans la nuit de samedi 28 février à dimanche 1er mars au Saint-Jacques Café, alors que l'établissement accueillait un concert du groupe rennais Velvet June.</p>
